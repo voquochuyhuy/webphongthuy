@@ -43,17 +43,17 @@ class Totxau extends React.Component {
         <p style={{textAlign:"center",fontSize:"25px",color:"brown",fontWeight:"bold"}}>Xem ngày tốt xấu, giờ đẹp việc tốt hôm nay, chọn ngày tốt trong tháng
         </p>
         <br></br>
-        <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
+        <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
           Dù ngày nay xã hội đã phát triển hiện đại hơn so với thời ông bà ta, nhưng phong tục xem ngày tốt xấu theo tuổi hay chọn ngày cưới hỏi, ngày tốt động thổ, coi ngày đẹp khai trương, mua xe , mua nhà… Có thể nói là các việc quan trọng thì đều được lựa chọn thật kỹ càng. Xem ngày tốt xấu năm 2018 trước khi làm các việc đại sự bây giờ đã trở thành một nét văn hóa truyền thống đẹp của người Việt Nam. Tuy nhiên thì ngày tốt ngày đẹp là ngày như thế nào, tiêu chí gì để chọn ngày tốt? Hay trong một ngày thì giờ nào được xem là giờ hoàng đạo, hướng nào tốt cho xuất hành… để công việc thuận lợi, thành công mỹ mãn. Trên đây là tổng hợp các yếu tốt chọn ngày tốt, được các chuyên gia về phân tích đúc kết lại, một cách chính xác và phù hợp với tuổi của quý gia chủ. Chúc quý bạn coi được ngày tốt, ngày đẹp với mình để các công việc luôn được làm tốt, gặp nhiều may mắn 
         </p>          
     </div>)
     else return (<div>
 
-<p style = {{fontSize:"16px",color:"red",marginLeft:"3%",fontWeight:"bold"}}> Ngày 16/4/2019 là ngày Không xấu nhưng cũng chưa tốt cho việc những việc trọng đại</p>
+<p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}> Ngày 16/4/2019 là ngày Không xấu nhưng cũng chưa tốt cho việc những việc trọng đại</p>
 
 
-<p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Tiết khí:Thanh minh ( Trong sáng )</p>
-<p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>   Ngũ hành:Bạch lạp kim</p>
+<p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Tiết khí:Thanh minh ( Trong sáng )</p>
+<p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>   Ngũ hành:Bạch lạp kim</p>
 <br />
       <Button style={{marginLeft:"3%"}} color="rose" onClick={()=>{this.setState({value:false})}}>Xem mới</Button>
     </div>)
@@ -65,7 +65,7 @@ class Totxau extends React.Component {
       
       
       <GridContainer>
-          <GridItem xs={12} style={{ position: "relative", textAlign: "center" }}>
+          {/* <GridItem xs={12} style={{ position: "relative", textAlign: "center" }}>
             <img src={bg} style={{ width: "100%", height: "30%" }}></img>
             <div style={{
               position: "absolute", top: "15%", left: "50%",
@@ -74,7 +74,7 @@ class Totxau extends React.Component {
               Xem ngày tốt xấu
             </div>
            
-          </GridItem>
+          </GridItem> */}
 
         </GridContainer>
         {this.clicked()}
@@ -85,13 +85,13 @@ class Totxau extends React.Component {
             
           </GridItem>
           <GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
-            <img src={bg1} style={{ width: "100%" }}></img>
+            <img src={bg1} style={{ width: "90%",height:"80%" }}></img>
             <div style={{ position: "absolute", top: "45%", left: "50%", transform: "translate(-50%,-50%)", color: "red", fontWeight: "bold" }}>
               <p style={{ fontSize: "20px" }}>Xem ngày tốt xấu năm 2019</p>
               <div>
                 <br />
                 <div>
-                  <select style={{ padding: "20px" }}>
+                  <select style={{ padding: "15px" }}>
                   <option value="volvo" selected disabled hidden>Ngày</option>
                   <option value="saab">1</option>
                   <option value="mercedes">2</option>
@@ -125,7 +125,7 @@ class Totxau extends React.Component {
                   <option value="audi">30</option>
                   </select>
 
-                  <select style={{ marginLeft: "5%", padding: "20px" }}>
+                  <select style={{ marginLeft: "5%", padding: "15px" }}>
                     <option value="volvo" selected disabled hidden>Tháng</option>                   
                     <option value="saab">1</option>
                     <option value="mercedes">2</option>

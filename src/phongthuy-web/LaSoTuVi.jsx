@@ -20,7 +20,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 
 
-import dashboardStyle from "assets/jss/material-dashboard-pro-react/views/dashboardStyle";
+// import dashboardStyle from "assets/jss/material-dashboard-pro-react/views/dashboardStyle";
 
 export default class LaSoTuVi extends React.Component {
   constructor(props) {
@@ -38,21 +38,21 @@ export default class LaSoTuVi extends React.Component {
      return (<div><p style={{marginLeft:"3%",fontSize:"25px",color:"red",fontWeight:"bold"}}>
      Cách lấy lá số tử vi trọn đời
      </p>
-     <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
+     <p style = {{fontSize:"15px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
      Khi xem tử vi, người ta dựa vào họ tên, ngày tháng năm sinh của nam nữ để lập. Lá số tử vi trọn đời bao gồm 12 cung là bản mệnh, phúc đức, cha mẹ, vợ chồng, công danh sự nghiệp, tiền tài, nhà cửa, con cái, anh chị em, sức khỏe, quan hệ xã hội, bạn bè - đồng nghiệp. Trong 12 cung, thì cung nào cũng có tầm quan trọng của nó, nhưng đối với phụ nữ thì cung thu thê là quan trọng hơn, ngược lại đối với đàn ông lại là cung sự nghiệp. Việc xem tử vi trọn đời không chỉ để biết về tương lai ta giàu hay nghèo, thọ hay không, mà còn biết rõ mình là ai, mối quan hệ với bạn bè đồng nghiệp, chỗ đứng của mình trong xã hội này. Muốn luận giải chính xác về lá số tử vi của mình, bạn nên khảo sát cả những lá số tử vi của những người thân để tìm được đáp án chính xác nhất.
      </p>
      <p style={{marginLeft:"3%",fontSize:"25px",color:"red",fontWeight:"bold"}}> Lá số tử vi năm 2019 của 12 con giáp
      </p>
-     <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Lá số tử vi của 12 con giáp sẽ ra sao trong năm 2019. Năm Mậu Tuất mệnh Mộc rất thích hợp cho việc đầu tư, xây dựng liên quan đến bất động sản phát triển. Tuổi Dần, Ngọ, Tuất gặp hạn tam tai cần chú ý khi đưa ra quyết định quan trọng, tuổi Thìn gặp đôi chút khó khăn, tuổi Tỵ gặp nhiều may mắn.... 
+     <p style = {{fontSize:"15px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Lá số tử vi của 12 con giáp sẽ ra sao trong năm 2019. Năm Mậu Tuất mệnh Mộc rất thích hợp cho việc đầu tư, xây dựng liên quan đến bất động sản phát triển. Tuổi Dần, Ngọ, Tuất gặp hạn tam tai cần chú ý khi đưa ra quyết định quan trọng, tuổi Thìn gặp đôi chút khó khăn, tuổi Tỵ gặp nhiều may mắn.... 
      </p>
      <p style={{marginLeft:"3%",fontSize:"25px",color:"red",fontWeight:"bold"}}>
      Luận giải lá số tử vi trực tuyến miễn phí
      </p >
-     <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
+     <p style = {{fontSize:"15px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
       Hiện nay Phong Thủy Số đã cung cấp nội dung chính xác luận giải 12 cung của lá số. Ngoài ra chúng tôi cung cấp vận hạn theo từng tuổi để quý bạn có đầy đủ thông tin tránh hạn trong năm. Việc bình giải lá số tử vi trọn đời có nhiều phương pháp, trường phái luận giải khác nhau. Mỗi phương pháp đều có tính chính xác riêng, chúng tôi xin phép không bàn luận tính đúng sai. Ngoài ra, Phong thủy số giới thiệu với bạn trọn bộ Tử vi 2019 cho 12 con giáp chi tiết nhất về Tình duyên, Gia đạo, Công danh sự nghiệp, Sức khỏe và Vận hạn trong 12 tháng của năm Mậu Tuất
       </p>
      <p style={{marginLeft:"3%",fontSize:"25px",color:"red",fontWeight:"bold"}}>Lưu ý :</p> 
-     <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Để Lấy Lá số tử vi 2019 chính xác mời quý bạn nhập chính xác thông tin về giờ sinh, ngày tháng năm sinh dương lịch Họ và tên Không được để trống Ngày sinh Không được để trống Tháng sinh Không được để trống Giờ sinh Không được để trống Phút sinh Không được để trống
+     <p style = {{fontSize:"15px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Để Lấy Lá số tử vi 2019 chính xác mời quý bạn nhập chính xác thông tin về giờ sinh, ngày tháng năm sinh dương lịch Họ và tên Không được để trống Ngày sinh Không được để trống Tháng sinh Không được để trống Giờ sinh Không được để trống Phút sinh Không được để trống
      </p> </div>)
      else return (<div>
       <p>VẬN NĂM 21 TUỔI </p> 
@@ -101,7 +101,7 @@ export default class LaSoTuVi extends React.Component {
               <br></br>
 
               <div>
-                <input style={{ padding: "20px" }} placeholder="Họ và tên"></input>
+                <input style={{ padding: "15px" }} placeholder="Họ và tên"></input>
               </div>
               <br></br>
               <div>
@@ -122,7 +122,7 @@ export default class LaSoTuVi extends React.Component {
                   <option value="mercedes">13</option>
                   <option value="audi">14</option>
                   <option value="volvo">15</option>
-                  <option value="saab">16</option>
+                  <option value="saab">15</option>
                   <option value="mercedes">17</option>
                   <option value="audi">18</option>
                   <option value="volvo">19</option>

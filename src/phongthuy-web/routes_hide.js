@@ -16,8 +16,14 @@ import MuaNha from "./Xemngay/MuaNha";
 import KetHon from "./Xemngay/KetHon";
 import PhongThuy from "./Phongthuy/PhongThuy";
 import XemBoi from "./Xemboi/XemBoi";
-import LaSoTuVi from './LaSoTuVi'
-import TuVi from './TuVi'
+import LaSoTuVi from './LaSoTuVi';
+import TuVi from './TuVi';
+import MuaXe from "./Xemngay/MuaXe";
+import KiHopDong from "./Xemngay/KiHopDong";
+import HopNhau from "./Xemtuoi/HopNhau";
+import LamAn from "./Xemtuoi/LamAn";
+import SaoHan from "./Xemtuoi/SaoHan";
+
 var dashRoutes = [
   {
     path: "/dashboard",
@@ -28,6 +34,13 @@ var dashRoutes = [
     layout: "/admin"
   },
   {
+    path: "/xem-boi",
+    name: "Xem bói",
+    icon: Timeline,
+    component: XemBoi,
+    layout: "/admin"
+  },
+  {
     collapse: true,
     name: "Xem tuổi",
     rtlName: "صفحات",
@@ -35,33 +48,41 @@ var dashRoutes = [
     state: "componentsCollapse",
     views: [
       {
-        path: "/lam-nha",
-        name: "Xem tuổi làm nhà",
-        rtlName: "عالتسعير",
-        mini: "PP",
-        rtlMini: "ع",
-        // component: PricingPage,
-        component:LamNha,
+        path: "/hop-nhau",
+        name: "Xem tuổi hợp nhau",
+        component:HopNhau,
         layout: "/admin"
       },
       {
-        path: "/vo-chong",
-        name: "Xem tuổi vợ chồng",
-        rtlName: "صودعم رتل",
-        mini: "RS",
-        rtlMini: "صو",
-        component: VoChong,
+        path: "/lam-an",
+        name: "Xem tuổi làm ăn",
+        component: LamAn,
+        layout: "/admin"
+      },
+      {
+        path: "/lam-nha",
+        name: "Xem tuổi làm nhà",
+        component: LamNha,
+        layout: "/admin"
+      },
+      {
+        path: "/sao-han",
+        name: "Xem tuổi sao hạn",
+        component: SaoHan,
         layout: "/admin"
       },
       {
         path: "/sinh-con",
         name: "Xem tuổi sinh con",
-        rtlName: "تيالجدول الزمني",
-        mini: "T",
-        rtlMini: "تي",
         component: SinhCon,
         layout: "/admin"
-      },    
+      }, 
+      {
+        path: "/vo-chong",
+        name: "Xem tuổi vợ chồng",
+        component: VoChong,
+        layout: "/admin"
+      },  
     ]
   },
   {
@@ -72,32 +93,35 @@ var dashRoutes = [
     state: "componentsCollapse1",
     views: [
       {
-        path: "/totxau",
+        path: "/tot-xau",
         name: "Xem ngày tốt xấu",
-        rtlName: "وصفت",
-        mini: "B",
-        rtlMini: "ب",
         component: TotXau,
         layout: "/admin"
       },
       {
-        path: "/muanha",
+        path: "/mua-nha",
         name: "Xem ngày mua nhà",
-        rtlName: "نظام الشبكة",
-        mini: "GS",
-        rtlMini: "زو",
         component: MuaNha,
         layout: "/admin"
       },
       {
-        path: "/kethon",
+        path: "/ket-hon",
         name: "Xem ngày tốt kết hôn",
-        rtlName: "لوحات",
-        mini: "P",
-        rtlMini: "ع",
         component: KetHon,
         layout: "/admin"
       },
+      {
+        path: "/mua-xe",
+        name: "Xem ngày mua xe",
+        component: MuaXe,
+        layout: "/admin"
+      },
+      {
+        path: "/ki-hop-dong",
+        name: "Xem ngày kí hợp đồng",
+        component: KiHopDong,
+        layout: "/admin"
+      },   
      
     ]
   },
@@ -108,14 +132,6 @@ var dashRoutes = [
     rtlName: "الرسوم البيانية",
     icon: Timeline,
     component: PhongThuy,
-    layout: "/admin"
-  },
-  {
-    path: "/xemboi",
-    name: "Xem bói",
-    rtlName: "التقويم",
-    icon: DateRange,
-    component: XemBoi,
     layout: "/admin"
   },
   {

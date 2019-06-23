@@ -41,18 +41,18 @@ class Muanha extends React.Component {
     return (<div>
       <p style={{textAlign:"center",fontSize:"25px",color:"brown",fontWeight:"bold"}}>Xem ngày mua nhà năm 2019 - Chọn ngày tốt mua nhà mua đất hợp tuổi 
           </p>
-          <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
+          <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
           Bạn có ý định mua nhà tháng 4 năm 2019. Có nên xem ngày mua nhà ? Đây là câu hỏi mà nhiều quý bạn băn khoăn khi đã chọn được tuổi mua đất, mua nhà năm 2019   Ngôi nhà là tổ ấm của mỗi người, là nơi che chở, bảo vệ và là nơi ta về sau mỗi giờ làm việc. Theo người xưa thì ba việc lớn trong đời của mỗi người đàn ông là: ”mua nhà, lấy vợ, tâu trâu”. Mua nhà là việc quan trọng trong cuộc đời, ai ai cũng phải có một căn nhà để đi về, vì vậy việc xem ngày tốt mua nhà hay xem ngày đặt cọc mua nhà rất quan trọng. Khi tậu nhà mới, người ta thường nhờ các thầy phong thủy tư vấn rất kỹ càng trước khi quyết định có nên mua nhà không. Và ngoài việc tư vấn về góc độ phong thủy của căn nhà thì việc lựa chọn ngày tốt mua nhà cũng phải là ngày hoàng đạo, giờ cát lợi. Một khởi đầu may mắn sẽ giúp gia chủ có được cuộc sống ấm no, hạnh phúc, công việc phát đạt và yên bình trong ngôi nhà mới của mình.   Chúc quý vị mua được ngôi nhà trong mơ hợp tuổi, hợp phong thủy thông qua công cụ xem ngày mua nhà theo tuổi.
           </p>
     </div>)
     else return (<div>
-     <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Tiết khí:Thanh minh ( Trong sáng )</p>
+     <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Tiết khí:Thanh minh ( Trong sáng )</p>
 
 
-     <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Ngũ hành:Bạch lạp kim</p>
+     <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Ngũ hành:Bạch lạp kim</p>
 
 
-     <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Ngày 16/4/2019 là ngày Tốt cho việc Mua nhà, mua đất.</p>
+     <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Ngày 14/4/2019 là ngày Tốt cho việc Mua nhà, mua đất.</p>
 
      <br />
       <Button style={{marginLeft:"3%"}} color="rose" onClick={()=>{this.setState({value:false})}}>Xem mới</Button>
@@ -63,7 +63,7 @@ class Muanha extends React.Component {
     return (
       <div style={{ marginTop: "0" }}>
       <GridContainer>
-          <GridItem xs={12} style={{ position: "relative", textAlign: "center" }}>
+          {/* <GridItem xs={12} style={{ position: "relative", textAlign: "center" }}>
             <img src={bg} style={{ width: "100%", height: "30%" }}></img>
             <div style={{
               position: "absolute", top: "15%", left: "50%",
@@ -71,7 +71,7 @@ class Muanha extends React.Component {
             }}>
               Tử vi 2019
             </div>
-          </GridItem>
+          </GridItem> */}
 
          
         </GridContainer>
@@ -82,7 +82,7 @@ class Muanha extends React.Component {
 
           </GridItem>
           <GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
-            <img src={bg1} style={{ width: "100%" }}></img>
+            <img src={bg1} style={{ width: "90%",height:"80%" }}></img>
             <div style={{ position: "absolute", top: "45%", left: "50%", transform: "translate(-50%,-50%)", color: "red", fontWeight: "bold" }}>
               <p style={{ fontSize: "20px" }}>Xem ngày mua nhà năm 2019</p>
               <div>

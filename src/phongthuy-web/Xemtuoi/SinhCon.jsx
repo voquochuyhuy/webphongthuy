@@ -42,7 +42,7 @@ class Sinhcon extends React.Component {
       Xem tuổi sinh con hợp tuổi bố mẹ 2019 - Chọn năm sinh con trai và gái
       </p>
       <img src={embe} style={{marginLeft:"40%"}}></img>
-      <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
+      <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
         Bạn đang có ý đinh xem tuổi sinh con năm 2019 hợp tuổi bố mẹ và bạn mong muốn chọn được năm tốt tháng đẹp 
         để sinh con. Với công cụ xem tuổi sinh con hợp tuổi bố mẹ 2019 hay 2020.. sẽ giúp quý bạn chọn lựa năm 
         sinh con phù hợp nhất với tuổi cha, tuổi mẹ mang đến cho con những sự khởi đầu tốt nhất. 
@@ -57,32 +57,32 @@ class Sinhcon extends React.Component {
       </p>
     </div>)
     else return (<div>
-    <p style = {{fontSize:"16px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>Chồng 1991 vợ 1991 sinh con năm 2019 có tốt không</p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>  Tiêu chí	</p>
-    <p style = {{fontSize:"16px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>Ngũ hành sinh khắc	</p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>- Cha mệnh Thổ </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ mệnh Thổ </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>- Con mệnh Mộc</p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Cha mệnh Thổ Tương Khắc Mộc của con </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ mệnh Thổ Tương Khắc Mộc của con </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>  Điểm	2/20</p>
-    <p style = {{fontSize:"16px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>Thiên can xung hợp	</p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>- Cha là Tân </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ là Tân </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Con là Kỷ </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Cha là Tân Tương Sinh Kỷ của con </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ là Tân Tương Sinh Kỷ của con </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Điểm	6/20</p>
-    <p style = {{fontSize:"16px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>Địa chi Bình Giải</p>    
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Cha là Mùi </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ là Mùi </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Con là Hợi </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Cha là Mùi Tam Hợp Hợi của con </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ là Mùi Tam Hợp Hợi của con </p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Điểm	6/20</p>
-    <p style = {{fontSize:"16px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Đánh giá	</p>
+    <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>Chồng 1991 vợ 1991 sinh con năm 2019 có tốt không</p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>  Tiêu chí	</p>
+    <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>Ngũ hành sinh khắc	</p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>- Cha mệnh Thổ </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ mệnh Thổ </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>- Con mệnh Mộc</p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Cha mệnh Thổ Tương Khắc Mộc của con </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ mệnh Thổ Tương Khắc Mộc của con </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>  Điểm	2/20</p>
+    <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>Thiên can xung hợp	</p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>- Cha là Tân </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ là Tân </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Con là Kỷ </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Cha là Tân Tương Sinh Kỷ của con </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ là Tân Tương Sinh Kỷ của con </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Điểm	6/20</p>
+    <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>Địa chi Bình Giải</p>    
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Cha là Mùi </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ là Mùi </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Con là Hợi </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Cha là Mùi Tam Hợp Hợi của con </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> - Mẹ là Mùi Tam Hợp Hợi của con </p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Điểm	6/20</p>
+    <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Đánh giá	</p>
  
-    <p style = {{fontSize:"16px",color:"red",marginLeft:"3%",fontWeight:"bold"}}> Kết Luận	Tổng 14/20 điểm: Chồng Tân Mùi vợ Tân Mùi sinh con năm 2019 là năm rất tốt. Chúc mừng vợ chồng bạn</p>
+    <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}> Kết Luận	Tổng 14/20 điểm: Chồng Tân Mùi vợ Tân Mùi sinh con năm 2019 là năm rất tốt. Chúc mừng vợ chồng bạn</p>
     <br />
     <Button style={{marginLeft:"3%"}} color="rose" onClick={()=>{this.setState({value:false})}}>Xem mới</Button>
     </div>)
@@ -92,7 +92,7 @@ class Sinhcon extends React.Component {
     return (
       <div style={{ marginTop: "0" }}>
       <GridContainer>
-          <GridItem xs={12} style={{ position: "relative", textAlign: "center" }}>
+          {/* <GridItem xs={12} style={{ position: "relative", textAlign: "center" }}>
             <img src={bg} style={{ width: "100%", height: "30%" }}></img>
             <div style={{
               position: "absolute", top: "15%", left: "50%",
@@ -100,7 +100,7 @@ class Sinhcon extends React.Component {
             }}>
               Xem tuổi sinh con
             </div>
-          </GridItem>
+          </GridItem> */}
 
         </GridContainer>
         <GridContainer>
@@ -108,8 +108,8 @@ class Sinhcon extends React.Component {
 
           </GridItem>
           <GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
-            <img src={bg1} style={{ width: "100%" }}></img>
-            <div style={{ position: "absolute", top: "45%", left: "50%", transform: "translate(-50%,-50%)", color: "red", fontWeight: "bold" }}>
+            <img src={bg1} style={{ width: "97%",height:"80%" }}></img>
+            <div style={{ position: "absolute", top: "25%", left: "50%", transform: "translate(-50%,-50%)", color: "red", fontWeight: "bold" }}>
               <p style={{ fontSize: "18px" }}>XEM TUỔI SINH CON HỢP VỚI BỐ MẸ</p>
               <div>
  

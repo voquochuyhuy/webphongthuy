@@ -68,15 +68,7 @@ class Dashboard extends React.Component {
     const { classes } = this.props;
     return (
       <div style={{ marginTop: "0" }}>
-        {/* <div class="fb-share-button" 
-        data-href="https://developers.facebook.com/docs/plugins/" 
-        data-layout="button_count" data-size="large">
-          <a target="_blank" 
-            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" 
-            class="fb-xfbml-parse-ignore">
-              Chia sẻ
-          </a>
-        </div> */}
+        
       <div style={{marginLeft:"7%",textAlign:"center"}}>
       {/* <p>XEM TỬ VI CÁC TUỔI NĂM 2019</p> */}
         {/* <GridContainer>
@@ -121,7 +113,7 @@ class Dashboard extends React.Component {
               <div>
                 <br />
                 <div>
-                  <select style={{ padding: "20px" }}>
+                  <select style={{ padding: "15px" }}>
                     <option value="volvo">1990</option>
                     <option value="saab">1991</option>
                     <option value="mercedes">1992</option>
@@ -136,7 +128,7 @@ class Dashboard extends React.Component {
                     <option value="audi">2001</option>
                   </select>
 
-                  <select style={{ marginLeft: "5%", padding: "20px" }}>
+                  <select style={{ marginLeft: "5%", padding: "15px" }}>
                     <option value="volvo">Nam</option>
                     <option value="saab">Nữ</option>
                   </select>
@@ -179,7 +171,7 @@ class Dashboard extends React.Component {
               <br></br>
 
               <div>
-                <input style={{ padding: "20px" }} placeholder="Họ và tên"></input>
+                <input style={{ padding: "15px" }} placeholder="Họ và tên"></input>
               </div>
               <br></br>
               <div>
