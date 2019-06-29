@@ -163,7 +163,7 @@ class Dashboard extends React.Component {
             // {...rest}
           />
           
-            <img src={img_title} style={{width:"100%",height:"60% !important"}}></img>
+            <img src={img_title} style={{width:"100%",height:"50% !important"}}></img>
           
           {/* On the /maps/full-screen-maps route we want the map to be on full screen - this is not possible if the content and conatiner classes are present because they have some paddings which would make the map smaller */}
           {this.getRoute() ? (

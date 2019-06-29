@@ -41,7 +41,7 @@ class Sinhcon extends React.Component {
      <p style={{textAlign:"center",fontSize:"25px",color:"brown",fontWeight:"bold"}}>
       Xem tuổi sinh con hợp tuổi bố mẹ 2019 - Chọn năm sinh con trai và gái
       </p>
-      <img src={embe} style={{marginLeft:"40%"}}></img>
+      {/* <img src={embe} style={{marginLeft:"40%"}}></img>
       <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
         Bạn đang có ý đinh xem tuổi sinh con năm 2019 hợp tuổi bố mẹ và bạn mong muốn chọn được năm tốt tháng đẹp 
         để sinh con. Với công cụ xem tuổi sinh con hợp tuổi bố mẹ 2019 hay 2020.. sẽ giúp quý bạn chọn lựa năm 
@@ -54,7 +54,7 @@ class Sinhcon extends React.Component {
          Cung phi bát tự rồi phân tích xem năm đó có hợp tuổi bố mẹ để sinh con không và nếu như không thì công cụ 
          Xem tuổi sinh con 2019 sẽ giúp quý vị chọn năm nào hợp để sinh con hợp tuổi cha và mẹ.  
          Chúc vợ chồng bạn sớm sinh thiên thần và gia đình luôn luôn hạnh phúc!  
-      </p>
+      </p> */}
     </div>)
     else return (<div>
     <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>Chồng 1991 vợ 1991 sinh con năm 2019 có tốt không</p>
@@ -103,11 +103,12 @@ class Sinhcon extends React.Component {
           </GridItem> */}
 
         </GridContainer>
+        {this.clicked()}
         <GridContainer>
           <GridItem xs={3}>
 
           </GridItem>
-          <GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
+          {this.state.value === false ?(<GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
             <img src={bg1} style={{ width: "97%",height:"80%" }}></img>
             <div style={{ position: "absolute", top: "25%", left: "50%", transform: "translate(-50%,-50%)", color: "red", fontWeight: "bold" }}>
               <p style={{ fontSize: "18px" }}>XEM TUỔI SINH CON HỢP VỚI BỐ MẸ</p>
@@ -165,13 +166,12 @@ class Sinhcon extends React.Component {
             
 
 
-          </GridItem>
+          </GridItem>):<div/>}
           <GridItem xs={3}>
 
           </GridItem>
         </GridContainer>
-      {this.clicked()}
-      
+         
       </div>
      
     );

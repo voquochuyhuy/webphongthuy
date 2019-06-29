@@ -20,7 +20,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 
 import Button from "components/CustomButtons/Button.jsx";
 
-
+import KetHonData from "../../views/Tables/KetHonData";
 import dashboardStyle from "assets/jss/material-dashboard-pro-react/views/dashboardStyle";
 
 
@@ -41,9 +41,7 @@ class Kethon extends React.Component {
     return (<div>
       <p style={{textAlign:"center",fontSize:"25px",color:"brown",fontWeight:"bold"}}>Xem ngày đẹp cưới hỏi theo tháng , chọn ngày tốt kết hôn theo tuổi vợ chồng 2019 </p>
         <br></br>
-        <br></br>
-        <br></br>
-
+        
         <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}> Tại sao phải Xem Ngày Đẹp Cưới Hỏi Tháng 4 Năm 2019 hay Xem Ngày Kết Hôn Theo Tuổi Vợ Chồng? 
         </p>
         <br></br>
@@ -51,7 +49,7 @@ class Kethon extends React.Component {
         </p>
     </div>)
     else return (<div>
-     <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}> Ngày 14/4/2019 là ngày Không xấu nhưng cũng chưa tốt cho việc Cưới hỏi, kết hôn.</p>
+     <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}> Ngày 1/7/2019 là ngày Không xấu nhưng cũng chưa tốt cho việc Cưới hỏi, kết hôn.</p>
 
 
      <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Tiết khí:Thanh minh ( Trong sáng )</p>
@@ -59,6 +57,7 @@ class Kethon extends React.Component {
 
      <br />
       <Button style={{marginLeft:"3%"}} color="rose" onClick={()=>{this.setState({value:false})}}>Xem mới</Button>
+      <KetHonData />
     </div>)
   }
   render() {
@@ -82,7 +81,7 @@ class Kethon extends React.Component {
           <GridItem xs={3}>
 
           </GridItem>
-          <GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
+          {this.state.value === false ?(<GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
             <img src={bg1} style={{ width: "90%" ,height:"80%"}}></img>
             <div style={{ position: "absolute", top: "45%", left: "50%", transform: "translate(-50%,-50%)", color: "red", fontWeight: "bold" }}>
               <p style={{ fontSize: "20px" }}>Xem ngày tốt để kết hôn năm 2019</p>
@@ -149,7 +148,8 @@ class Kethon extends React.Component {
             </div>
 
 
-          </GridItem>
+          </GridItem>) :<div/>}
+          
           <GridItem xs={3}>
 
           </GridItem>

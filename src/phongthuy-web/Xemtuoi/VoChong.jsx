@@ -158,11 +158,12 @@ class Vochong extends React.Component {
           </GridItem>
 
         </GridContainer>
+        {this.clicked()}
         <GridContainer>
           <GridItem xs={3}>
 
           </GridItem>
-          <GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
+          {this.state.value === false ?(<GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
             <img src={bg1} style={{ width: "90%",height:"80%" }}></img>
             <div style={{ position: "absolute", top: "45%", left: "50%", transform: "translate(-50%,-50%)", color: "red", fontWeight: "bold" }}>
               <p style={{ fontSize: "20px" }}>Xem tuổi vợ chồng 2019</p>
@@ -210,13 +211,13 @@ class Vochong extends React.Component {
             </div>
 
 
-          </GridItem>
+          </GridItem>):<div />}
           <GridItem xs={3}>
 
           </GridItem>
         </GridContainer>
       
-          {this.clicked()}
+        
       </div>
     
     );

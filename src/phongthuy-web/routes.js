@@ -66,7 +66,7 @@ var dashRoutes = [
       },
       {
         path: "/sao-han",
-        name: "Xem tuổi sao hạn",
+        name: "Xem sao hạn theo tuổi",
         component: SaoHan,
         layout: "/admin"
       },

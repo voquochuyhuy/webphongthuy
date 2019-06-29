@@ -40,16 +40,37 @@ class Kethon extends React.Component {
     if(this.state.value === false)
     return (<div>
       
-        <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Xem tuổi hợp nhau năm 2018 hợp với tuổi nào là công cụ giúp quý bạn kiểm tra xem, năm sinh của mình thì hợp những tuổi nào, kỵ tuổi nào để làm các công việc trọng đại như: Xem tuổi hợp tác làm ăn chung, xem tuổi mình và người ấy có hợp nhau không, xem tuổi hợp với bố mẹ, xem tuổi hợp tình duyên…. Vì vậy, để sử dụng công cụ một cách chuẩn xác thì mời quý bạn làm theo hướng dẫn sau
-        </p>
+      <p style={{textAlign:"center",fontSize:"25px",color:"brown",fontWeight:"bold"}}>Xem tuổi hợp - Cách xem tuổi hợp nhau theo năm sinh chính xác nhất</p>
+      <br />
+      <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Xem tuổi hợp nhau năm 2018 hợp với tuổi nào là công cụ giúp quý bạn kiểm tra xem, năm sinh của mình thì hợp những tuổi nào, kỵ tuổi nào để làm các công việc trọng đại như: Xem tuổi hợp tác làm ăn chung, xem tuổi mình và người ấy có hợp nhau không, xem tuổi hợp với bố mẹ, xem tuổi hợp tình duyên…. Vì vậy, để sử dụng công cụ một cách chuẩn xác thì mời quý bạn làm theo hướng dẫn sau</p>
         
     </div>)
     else return (<div>
-     <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}> Ngày 14/4/2019 là ngày Không xấu nhưng cũng chưa tốt cho việc Cưới hỏi, kết hôn.</p>
-
-
-     <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Tiết khí:Thanh minh ( Trong sáng )</p>
-     <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>   Ngũ hành:Bạch lạp kim</p>
+      <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>1. Thông tin gia chủ sinh năm 1998 </p>
+      <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
+      - Năm sinh dương lịch : 1998 - Năm sinh âm lịch : Mậu Dần <br />
+      - Thuộc mệnh: Thổ (Thành đầu Thổ) - Thuộc cung: Khôn <br />
+      - Niên mệnh năm sinh: Thổ Xem chi tiết tuổi 1998 hợp tuổi nào nhất </p>
+      <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>2. Thông tin gia chủ sinh năm 1998 - Năm sinh dương lịch : 1998</p> 
+      <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>- Năm sinh âm lịch : Mậu Dần - Thuộc mệnh: Thổ (Thành đầu Thổ) <br />
+      - Thuộc cung: Tốn - Niên mệnh năm sinh: Mộc Xem tuổi 1998 hợp với tuổi nào nhất </p>
+      <p style = {{fontSize:"14px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>3. Luận tuổi Nam 1998 có hợp với Nữ 1998 không</p>
+      <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}> Dưới đây là bảng luận tuổi Nam 1998 Nữ 1998 có hợp nhau không. <br />
+       Công cụ luận tuổi theo mệnh, can chi, địa chi, cung phi, niên mệnh một cách chuẩn xác.<br />
+        Công cụ sẽ tính điểm tuổi 1998 và 1998 có hợp nhau không theo thang điểm 10.  <br />
+        +, nếu như Nam 1998 nữ 1998 từ 8 -> 10 điểm là điểm cực tốt.  <br />
+        +, Điểm từ 5 -> 7 thì Nam Mậu Dần và Nữ Mậu Dần khá là hợp nhau.  <br />
+        +, Dưới 5 điểm : thì Nữ Mậu Dần có hợp với Nam Mậu Dần không, cần phải cân nhắc. <br />
+        Phân tích hợp tuổi 1998 và 1998 <br />
+        Thông tin	Tuổi 1998	Tuổi 1998	 Nhận xét	Điểm <br />
+        Về mệnh	Dương Thổ	Dương Thổ	Bình Hòa	1 <br />
+        Về thiên can	Mậu	Mậu	Bình Hòa	1 <br />
+        Về địa chi	Dần	Dần	Bình Hòa	1 <br />
+        Về cung	Khôn	Tốn	Lục Sát	0 <br />
+        Về thiên mệnh năm sinh	<br />
+        Thổ	Mộc	Tương Khắc	0 <br />
+        Tổng Điểm	3 Điểm Kết luận	điểm của bạn là rất xấu!<br />
+        Qua bài viết này, quý bạn đã có biết được mình hợp với những tuổi nào rồi chứ. Để công việc làm ăn, tình duyên, vợ chồng, con cái.... luôn luôn thành công, hòa hợp, mọi việc như ý thì xem Nam 1998 và Nữ 1998 có hợp nhau không là thực sự cần thiết. Chúc quý bạn tuổi Mậu Dần và tuổi Mậu Dần hợp nhau trong tất cả mọi việc, dù nhiều điều chưa được như mong muốn nhưng PHONG THỦY Việt Nam tin chắc rằng nếu cố gắng thì không có gìa là không thể.</p>
 
      <br />
       <Button style={{marginLeft:"3%"}} color="rose" onClick={()=>{this.setState({value:false})}}>Xem mới</Button>
@@ -59,24 +80,13 @@ class Kethon extends React.Component {
     const { classes } = this.props;
     return (
       <div style={{ marginTop: "0" }}>
-      <GridContainer>
-          {/* <GridItem xs={12} style={{ position: "relative", textAlign: "center", height: "80px" }}>
-            <img src={bg} style={{ width: "100%", height: "30%" }}></img>
-            <div style={{
-              position: "absolute", top: "15%", left: "50%",
-              transform: "translate(-50%,-50%)", color: "white", fontWeight: "bold", backgroundColor: "warning", borderRadius: "30%", fontSize: "20px"
-            }}>
-              Xem tuổi hợp nhau
-            </div>
-          </GridItem> */}
-
-        </GridContainer>
-        
+      
+        {this.clicked()}
         <GridContainer>
           <GridItem xs={3}>
 
           </GridItem>
-          <GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
+          {this.state.value === false ?(<GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
             <img src={bg1} style={{ width: "90%",height:"80%" }}></img>
             <div style={{ position: "absolute", top: "45%", left: "50%", transform: "translate(-50%,-50%)", color: "red", fontWeight: "bold" }}>
               <p style={{ fontSize: "20px" }}>Xem bạn có hợp với người ấy không</p>
@@ -143,12 +153,12 @@ class Kethon extends React.Component {
             </div>
 
 
-          </GridItem>
+          </GridItem>):<div/>}
           <GridItem xs={3}>
 
           </GridItem>
         </GridContainer>
-        {this.clicked()}
+        
 
       </div>
     

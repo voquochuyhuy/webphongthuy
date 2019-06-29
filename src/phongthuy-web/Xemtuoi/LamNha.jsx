@@ -21,7 +21,7 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 
 import Button from "components/CustomButtons/Button.jsx";
-
+import LamNhaData from "../../views/Tables/LamNhaData"
 
 import dashboardStyle from "assets/jss/material-dashboard-pro-react/views/dashboardStyle";
 
@@ -45,6 +45,17 @@ class Lamnha extends React.Component {
       <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>- Hạn tam tai: Nếu Gia chủ đang phân vân tuổi 1980 xây nhà năm nào và chọn đúng năm trùng với tuổi hạn Tam Tai thì gia đình sẽ gặp nhiều điều xấu và không may mắn. Vận xui sẽ đeo bám tất cả mọi người, dễ gặp các biến cố hay các tai họa không thể lường trước được.</p>
       <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>- Hạn Kim Lâu: Nếu gia chủ tuổi Canh Thân (1980) mà làm nhà, xây cất nhà cửa vào năm Kim Lâu thì quanh năm ốm đâu bệnh tật, sức khỏe suy yếu, sinh khí giảm sút, ngay cả người thân trong nhà cũng bị lây. </p>
       <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>- Hạn Hoang ốc: Nếu gia chủ tuổi Canh Thân (1980) mà là nhà, xây cất nhà cửa vào năm Hoang Ốc thì ngôi nhà sẽ không được tốt, lạnh lẽo hoang vắng, giảm sinh khí dễ bị ma quỷ sống cùng trong nhà.</p>
+      <p style = {{fontSize:"20px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>Để biết quý bạn sinh năm 1980 làm nhà năm 2019 được không thì mời các bạn xem bảng dưới đây. </p>
+      <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>
+      -Tam tai	Người tuổi tuổi Canh Thân cần tránh các năm Tam tai Dần , Mão , Thìn, năm làm nhà 2019 (Kỷ Hợi), Theo cách tính thì Gia chủ 1980 (Canh Thân) sẽ không phạm phải tuổi đại kỵ Tam Tai. <br/><br/>
+      -Kim Lâu	Năm 2019 (Kỷ Hợi) gia chủ 40 tuổi, theo cách tính này gia chủ sẽ không phạm phải năm Kim Lâu. <br/><br/>
+      -Hoang ốc	Năm 2019 (Kỷ Hợi) gia chủ 40 tuổi, theo cách tính hoang ốc sẽ phạm phải ” Tứ Tấn Tài ” - Tứ Tấn Tài chi phước lộc lai Gia chủ mà làm nhà tuổi này thì phúc lộc sẽ tới, thuận lợi mọi mặt. <br/><br/>
+      *Kết luận	Năm này tốt hợp với bạn có thể xây sửa nhà !</p>
+
+      <p style = {{fontSize:"20px",color:"red",marginLeft:"3%",fontWeight:"bold"}}>3. Bảng tính mượn tuổi làm nhà cho gia chủ sinh năm 1980 </p>
+      <p style = {{fontSize:"14px",color:"brown",marginLeft:"3%",fontWeight:"bold"}}>Nếu năm 2019 mà không hợp tuổi làm nhà với quý bạn. Thì mời quý bạn xem bảng dưới đây để mượn tuổi xây cất nhà cửa trong năm 2019 này. Bảng dưới đây cứ có 3 chỗ Tốt trở lên là hợp tuổi với gia chủ, và gia chủ có thể mượn làm nhà được. <br/>
+      Bảng tính hạn Tam tai, Hoàng ốc, Kim lâu năm 2019 </p>
+      <LamNhaData/>
 
       <br />
       <Button style={{marginLeft:"3%"}} color="rose" onClick={()=>{this.setState({value:false})}}>Xem mới</Button>
@@ -59,7 +70,7 @@ class Lamnha extends React.Component {
       </p>
       <br></br> 
       
-      <GridContainer>
+      {/* <GridContainer>
           <GridItem xs={12} style={{ position: "relative", textAlign: "center" }}>
             <img src={bg} style={{ width: "100%", height: "30%" }}></img>
             <div style={{
@@ -70,12 +81,12 @@ class Lamnha extends React.Component {
             </div>
           </GridItem>
 
-        </GridContainer>
+        </GridContainer> */}
         <GridContainer>
           <GridItem xs={3}>
 
           </GridItem>
-          <GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
+          {this.state.value === false ?(<GridItem xs={6} style={{ position: "relative", textAlign: "center" }}>
             <img src={bg1} style={{ width: "90%",height:"85%" }}></img>
             <div style={{ position: "absolute", top: "45%", left: "50%", transform: "translate(-50%,-50%)", color: "red", fontWeight: "bold" }}>
               <p style={{ fontSize: "20px" }}>Xem tuổi làm nhà năm 2019</p>
@@ -113,7 +124,7 @@ class Lamnha extends React.Component {
             </div>
 
 
-          </GridItem>
+          </GridItem>):<div/>}
           <GridItem xs={3}>
 
           </GridItem>

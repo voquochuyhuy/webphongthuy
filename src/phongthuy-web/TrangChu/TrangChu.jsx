@@ -171,7 +171,7 @@ class Dashboard extends React.Component {
               <br></br>
 
               <div>
-                <input style={{ padding: "15px" }} placeholder="Họ và tên"></input>
+                <input style={{ padding: "13px" }} placeholder="Họ và tên"></input>
               </div>
               <br></br>
               <div>
