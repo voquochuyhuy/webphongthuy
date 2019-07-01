@@ -94,53 +94,35 @@ class Kethon extends React.Component {
                 <br />
                 <div>
                   <select style={{ padding: "15px" }}>
-                  <option value="volvo" selected disabled hidden>Ngày</option>
-                  <option value="saab">1</option>
-                  <option value="mercedes">2</option>
-                  <option value="audi">3</option>
-                  <option value="volvo">4</option>
-                  <option value="saab">5</option>
-                  <option value="mercedes">6</option>
-                  <option value="audi">7</option>
-                  <option value="volvo">8</option>
-                  <option value="saab">9</option>
-                  <option value="mercedes">10</option>
-                  <option value="audi">11</option>
-                  <option value="saab">12</option>
-                  <option value="mercedes">13</option>
-                  <option value="audi">14</option>
-                  <option value="volvo">15</option>
-                  <option value="saab">14</option>
-                  <option value="mercedes">17</option>
-                  <option value="audi">18</option>
-                  <option value="volvo">19</option>
-                  <option value="saab">20</option>
-                  <option value="mercedes">21</option>
-                  <option value="audi">22</option>
-                  <option value="volvo">23</option>
-                  <option value="saab">24</option>
-                  <option value="mercedes">25</option>
-                  <option value="audi">26</option>
-                  <option value="volvo">27</option>
-                  <option value="saab">28</option>
-                  <option value="mercedes">29</option>
-                  <option value="audi">30</option>
+                  <option value="volvo" selected disabled hidden>Năm sinh nam</option>
+                  <option value="volvo">1990</option>
+                  <option value="saab">1991</option>
+                  <option value="mercedes">1992</option>
+                  <option value="audi">1993</option>
+                  <option value="volvo">1994</option>
+                  <option value="saab">1995</option>
+                  <option value="mercedes">1996</option>
+                  <option value="audi">1997</option>
+                  <option value="volvo">1998</option>
+                  <option value="saab">1999</option>
+                  <option value="mercedes">2000</option>
+                  <option value="audi">2001</option>
                   </select>
 
                   <select style={{ marginLeft: "5%", padding: "15px" }}>
-                    <option value="volvo" selected disabled hidden>Tháng</option>                   
-                    <option value="saab">1</option>
-                    <option value="mercedes">2</option>
-                    <option value="audi">3</option>
-                    <option value="volvo">4</option>
-                    <option value="saab">5</option>
-                    <option value="mercedes">6</option>
-                    <option value="audi">7</option>
-                    <option value="volvo">8</option>
-                    <option value="saab">9</option>
-                    <option value="mercedes">10</option>
-                    <option value="audi">11</option>
-                    <option value="audi">12</option>
+                    <option value="volvo" selected disabled hidden>Năm sinh nữ</option>                   
+                    <option value="volvo">1990</option>
+                    <option value="saab">1991</option>
+                    <option value="mercedes">1992</option>
+                    <option value="audi">1993</option>
+                    <option value="volvo">1994</option>
+                    <option value="saab">1995</option>
+                    <option value="mercedes">1996</option>
+                    <option value="audi">1997</option>
+                    <option value="volvo">1998</option>
+                    <option value="saab">1999</option>
+                    <option value="mercedes">2000</option>
+                    <option value="audi">2001</option>
                   </select>
                 </div>
                 <br></br>
